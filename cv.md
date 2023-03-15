@@ -1,4 +1,4 @@
-#Mhammadrajab Xujayev son of Rashid
+Mhammadrajab Xujayev son of Rashid
 
 ##Contacts 
 *+998905504716*
