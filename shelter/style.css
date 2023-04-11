@@ -709,3 +709,112 @@ img {
   margin-bottom: 0;
 }
 /* About style end  */
+/* Pets style start  */
+.our_pets {
+  max-height: 877px;
+  background-color: #f6f6f6;
+}
+.our_pets_container {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+.our_pets_title {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  font-family: "Georgia";
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 45px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+.our_pets_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 90px;
+  max-width: 990px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+.our_pets_card {
+  display: flex;
+  flex-direction: column;
+  background: #fafafa;
+  border-radius: 9px;
+  max-width: 270px;
+}
+.our-pets {
+  border-radius: 9px 9px 0px 0px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.our_pets_subtitle {
+  width: 74px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+.our_pets_btn {
+  display: flex;
+  align-items: flex-start;
+  border: 2px solid #f1cdb3;
+  border-radius: 100px;
+  max-width: 187px;
+  max-height: 52px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  flex-direction: column;
+}
+.our_pets-more {
+  padding: 15px 45px;
+  font-family: "Georgia";
+  font-style: normal;
+  font-size: 15px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #292929;
+  transition: 0.15s all;
+}
+.our_pets-more:hover,
+.our_pets-more:focus {
+  opacity: 0.75;
+}
+.pets_main_btn {
+  max-width: 261px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 45px;
+  gap: 10px;
+  white-space: nowrap;
+  background: #f1cdb3;
+  border-radius: 100px;
+}
+.pets_main_btn_link {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  white-space: nowrap;
+  overflow: hidden;
+  line-height: 130%;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #292929;
+}
+/* Pets style end  */
